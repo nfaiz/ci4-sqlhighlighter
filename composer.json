@@ -1,0 +1,30 @@
+{
+    "name": "nfaiz/sqlhighlighter",
+    "description": "CodeIgniter 4 SQL Highlighter using highlightjs.",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "debug",
+        "toolbar",
+        "database",
+        "sql",
+        "syntax"
+    ],
+    "homepage": "https://github.com/nfaiz/ci4-sqlhighlighter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noorulfaiz Ateman",
+            "homepage": "http://www.ukm.my/faiz",
+            "role": "Project Author"
+        }
+    ],
+    "require": {
+        "codeigniter4/framework": "^4.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nfaiz\\SqlHighlighter\\": "src/"
+        }
+    }
+}
