@@ -46,7 +46,7 @@ Open `app/Config/Toolbar.php` and find $sqlHighlighterAssets
 
 ### Default Database Toolbar
 
-* Light<br />![image](https://github.com/user-attachments/assets/b43b3489-9d56-4b49-b7ea-0af3298d7035)
+* Light<br />
 <img src="https://user-images.githubusercontent.com/1330109/193412805-a923b570-a4b1-47e6-956c-3f9f97e8c2d8.png" alt="Light mode">
 
 * Dark<br />
