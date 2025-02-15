@@ -41,7 +41,7 @@ class SqlHighlighter extends BaseCollector
      *
      * @var string
      */
-    protected $title = 'SQL Highlighter';
+    protected $title = 'SQL-HL';
 
     /**
      * Returns timeline data formatted for the toolbar.
@@ -74,21 +74,7 @@ class SqlHighlighter extends BaseCollector
         <STYLE> 
         {$style}
         </STYLE>
-        STYLE
-            . 'Var $sqlHighlighterAssets<table>'
-            . '<tr><td>css_light</td>'
-            . '<td><a href="' . $config->sqlHighlighterAssets['css_light'] . '">' 
-            . $config->sqlHighlighterAssets['css_light'] . '</a></td>'
-            . '</tr>'
-            . '<tr><td>css_light</td>'
-            . '<td><a href="' . $config->sqlHighlighterAssets['css_dark'] . '">' 
-            . $config->sqlHighlighterAssets['css_dark'] . '</a></td>'
-            . '</tr>'
-            . '<td>js</td>'
-            . '<td><a href="' . $config->sqlHighlighterAssets['js'] . '">' 
-            . $config->sqlHighlighterAssets['js'] . '</a></td>'
-            . '</tr>'
-            . '</table>';   
+        STYLE . "Current setting<br><table><tr><td><b>Key</b></td><td><b>Value</b></td></tr><tr><td>css_light</td><td><a href='{$config->sqlHighlighterAssets['css_light']}'>{$config->sqlHighlighterAssets['css_light']}</a></td></tr><tr><td>css_dark</td><td><a href='{$config->sqlHighlighterAssets['css_dark']}'>{$config->sqlHighlighterAssets['css_dark']}</a></td></tr><tr><td>js</td><td><a href='{$config->sqlHighlighterAssets['js']}'>{$config->sqlHighlighterAssets['js']}</a></td></tr></table><em><a href='https://github.com/nfaiz/ci4-sqlhighlighter?tab=readme-ov-file#modify-sql-highlighter-assets' target='_blank'>More info</a></em> about changing this current theme/style setting.<br></em>";   
     }
 
     /**
